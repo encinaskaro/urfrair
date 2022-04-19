@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    width: 100%;
+}
+.imagen1{
+    
+    
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 30%;
+    padding: 0px;
+}
+.logo {
+    
+    background-size: contain;
+    width: 180px;
+    height: 25px;
+    float: right;
+}
+
+.menu{
+    position: absolute;
+    right: 20px;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    color: #5f2885b4;
+}
+h1 {
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    padding-top: 90px;
+    padding-left: 20px;
+ }
+
+.btn {
+    display: none;
+    position: absolute;
+    left: 20px;
+}
+.btn:hover > span {
+    background-color: #5f2885b4;
+}
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 20px 20px 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 550px){
+    nav {
+        overflow: visible;
+    }
+    .menu {
+        width: 100%;
+        right: 0;
+        top: 80px;
+        background:  #5f2885b4;
+        overflow: hidden;
+        max-height: 0;
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .btn {
+        display: block;
+        cursor: pointer;
+    }
+    .show {
+        max-height: 200px;
+    }
+}
+.imagen2{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 30%;
+    padding: 0px;
+ }
+ .imagen3{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 30%;
+    padding: 0px;
+ }
+ .imagen4{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 30%;
+    padding: 15px;
+ }
+ .imagen5{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 30%;
+    padding: 15px;
+ }
+ .imagen6{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 30%;
+    padding: 15px;
+ }
+ .imagen7{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 30%;
+    padding: 15px;
+ }
